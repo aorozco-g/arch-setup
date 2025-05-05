@@ -947,6 +947,11 @@ change_default_shell() {
 
     try_command "sudo chsh -s /usr/bin/zsh \"$USER\"" "Failed to change default shell" || return 1
 
+    # Install Oh My Zsh
+    log "Installing Oh My Zsh"
+    try_command "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\" \"\" --unattended" \
+        "Failed to install Oh My Zsh" || return 1
+
     # Enable pkgfile-update timer for command-not-found functionality
     log "Enabling pkgfile database update timer"
     if ! run_command "sudo systemctl enable --now pkgfile-update.timer" \
