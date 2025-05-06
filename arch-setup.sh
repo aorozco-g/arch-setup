@@ -949,7 +949,10 @@ change_default_shell() {
 
     # Install Oh My Zsh
     log "Installing Oh My Zsh"
-    try_command "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\" \"\" --unattended" \
+    # Download the install script first, then execute it separately to avoid quoting issues
+    curl -fsSL -o "$TEMP_DIR/install_ohmyzsh.sh" https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+    chmod +x "$TEMP_DIR/install_ohmyzsh.sh"
+    try_command "$TEMP_DIR/install_ohmyzsh.sh --unattended" \
         "Failed to install Oh My Zsh" || return 1
 
     # Enable pkgfile-update timer for command-not-found functionality
