@@ -10,3 +10,4 @@ Will be adding more features and packages, as they come into my mind or I add th
  3. Probably add Gamescope
  4. Try to automate the DNIe USB configuration in Firefox (https://minibots.wordpress.com/2023/03/24/uso-de-dnie-con-lector-de-tarjetas-usb-en-archlinux/ #Integration with Firefox)
  5. Add SaveDesktop to restore my dotfiles (or any other app/method maybe easier to add the dots to the repo itself)
+ 6. Add a step to download the XCompose from https://github.com/raelgc/win_us_intl to mirror Windows™ US International layout
