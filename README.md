@@ -5,8 +5,8 @@ Will be adding more features and packages, as they come into my mind or I add th
 
 # To Do
 
- 1. Set up SDDM to use Wayland
- 2. Set up Firefox with Betterfox
+ 1. Set up SDDM to use Wayland (https://wiki.archlinux.org/title/SDDM#Wayland)
+ 2. Set up Firefox with Betterfox (https://github.com/yokoffing/Betterfox)
  3. Probably add Gamescope
- 4. Try to automate the DNIe USB configuration in Firefox
+ 4. Try to automate the DNIe USB configuration in Firefox (https://minibots.wordpress.com/2023/03/24/uso-de-dnie-con-lector-de-tarjetas-usb-en-archlinux/ #Integration with Firefox)
  5. Add SaveDesktop to restore my dotfiles (or any other app/method maybe easier to add the dots to the repo itself)
