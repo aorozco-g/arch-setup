@@ -20,7 +20,7 @@ PACMAN_PACKAGES=(
     kalk filelight kvantum papirus-icon-theme lutris umu-launcher steam 
     ttf-liberation gamemode goverlay mangohud noto-fonts noto-fonts-extra 
     noto-fonts-cjk noto-fonts-emoji discord kitty zsh zsh-completions 
-    zsh-autosuggestions zsh-syntax-highlighting pkgfile shellcheck
+    zsh-autosuggestions zsh-syntax-highlighting pkgfile shellcheck elisa
 )
 
 AUR_PACKAGES=(
