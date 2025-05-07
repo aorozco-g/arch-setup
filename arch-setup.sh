@@ -21,6 +21,7 @@ PACMAN_PACKAGES=(
     ttf-liberation gamemode goverlay mangohud noto-fonts noto-fonts-extra 
     noto-fonts-cjk noto-fonts-emoji discord kitty zsh zsh-completions 
     zsh-autosuggestions zsh-syntax-highlighting pkgfile shellcheck elisa
+    okular
 )
 
 AUR_PACKAGES=(
